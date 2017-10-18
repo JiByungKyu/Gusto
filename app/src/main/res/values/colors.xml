@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F3F3F3</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorNav">#F3F3F3</color>
+    <color name="colorToolbarBackground">#F3F3F3</color>
+    <color name="color_primary">#FF42B649</color>
+    <color name="color_primary_dark">#43A047</color>
+    <color name="color_primary_text">#FFF</color>
+    <color name="listView_item">#323436</color>
+    <color name="listView_item_clicked">#42B649</color>
+    <color name="menu_list_header_background">#222326</color>
+    <color name="background_color">#1C1C1D</color>
+    <color name="sort_by_top_item_background">#323436</color>
+    <color name="sort_by_selected">#42B649</color>
+    <color name="sort_by_background">#222426</color>
+</resources>

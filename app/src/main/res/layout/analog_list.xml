@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/analog_data_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="아날로그 ID"
+            android:layout_weight="0.2" />
+
+        <TextView
+            android:id="@+id/analog_data_value"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="값"
+            android:layout_weight="0.8" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/analog_data_progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="50"
+        android:progressDrawable="@drawable/progress_drawable" />
+
+</LinearLayout>

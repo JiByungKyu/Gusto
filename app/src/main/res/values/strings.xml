@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DOOSAN</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_analog">Analog</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_graph_base">GraphBaseActivity</string>
+
+
+    <string name="export_example">Exporting example…</string>
+    <string name="toolbar_drawer_open">Open the toolbar</string>
+    <string name="toolbar_drawer_close">Close the toolbar</string>
+    <string name="toggle_drawer">Toggle Drawer</string>
+    <string name="export_all_examples">Exporting all examples…</string>
+    <string name="export_option">Select export option for %s example:</string>
+    <string name="export_solution_text">Thank you for exporting the SciChart Android %s Example, please check out the attached project which you can run in Android studio.\n\nFor help, please see www.scichart.com/running-scichart-android-examples</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_main3">Main3Activity</string>
+</resources>
