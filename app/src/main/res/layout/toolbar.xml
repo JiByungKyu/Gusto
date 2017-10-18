@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:padding="10dp">
+
+        <ImageButton
+            android:id="@+id/main_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:scaleType="fitStart"
+            app:srcCompat="@mipmap/menu" />
+
+        <ImageButton
+            android:id="@+id/doosan_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:scaleType="fitCenter"
+            android:src="@drawable/doosanlogo" />
+
+        <ImageButton
+            android:id="@+id/saved_graph"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/colorPrimary"
+            android:onClick="onClick"
+            android:scaleType="fitEnd"
+            android:src="@mipmap/savedgraph" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>
